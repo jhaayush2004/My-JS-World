@@ -7,7 +7,7 @@ let valueInNumber = Number(score)
 console.log(typeof valueInNumber) // number
 
 //Edge Case
-// If score = "33ab", then valueInNumber equals NaN and its type is still number.
+// If score = "33abc", then valueInNumber equals NaN and its type is still number.
 // If score = nan, then valueInNumber=0 and type is number.
 // If score = undefined, then valueInNumber=Nan and type is number.
 // If score = true/false, then valueInNumber=1/0 and type is number.
